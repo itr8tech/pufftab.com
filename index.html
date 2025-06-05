@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuffTab - Personal Cannabis Consumption Companion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">PuffTab</span>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="display-4 mb-3">PuffTab</h1>
+                <p class="lead">A comprehensive cannabis consumption tracking app for iOS, built with SwiftUI and SwiftData.</p>
+                
+                <section class="my-5">
+                    <h2 class="h3 mb-4">Overview</h2>
+                    <p>PuffTab is a feature-rich iOS application designed to help users track and manage their cannabis consumption with precision and insight. Whether you're a medical patient monitoring dosage or a recreational user tracking expenses, PuffTab provides the tools you need to understand your consumption patterns.</p>
+                </section>
+
+                <section class="my-5">
+                    <h2 class="h3 mb-4">Key Features</h2>
+                    
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-graph-up me-2"></i>Comprehensive Tracking</h5>
+                                    <ul class="list-unstyled">
+                                        <li><strong>Detailed Puff Logging</strong>: Record each session with timestamp, amount (grams), method, and supply used</li>
+                                        <li><strong>Photo Documentation</strong>: Attach photos to your puffs for visual reference</li>
+                                        <li><strong>Markdown Notes</strong>: Rich text notes with formatting support for detailed observations</li>
+                                        <li><strong>Method Tracking</strong>: Track consumption by different methods (joint, pipe, bong, vaporizer, etc.)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-box-seam me-2"></i>Supply Management</h5>
+                                    <ul class="list-unstyled">
+                                        <li><strong>Complete Inventory System</strong>: Track multiple supplies with strain details, THC/CBD content, and terpene profiles</li>
+                                        <li><strong>Cost Tracking</strong>: Monitor cost per gram and total expenditure</li>
+                                        <li><strong>Automated Depletion</strong>: Supplies automatically update as you log consumption</li>
+                                        <li><strong>Supply Timeline</strong>: Visual history of finished supplies organized by month</li>
+                                        <li><strong>Expiry Tracking</strong>: Set and monitor expiration dates for your supplies</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-flask me-2"></i>Terpene Profiles</h5>
+                                    <ul class="list-unstyled">
+                                        <li><strong>Detailed Terpene Tracking</strong>: Record individual terpenes and their percentages</li>
+                                        <li><strong>Effect Information</strong>: View common effects and aromas for each terpene</li>
+                                        <li><strong>Supply Associations</strong>: Link terpene profiles to specific supplies</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-building me-2"></i>Business Relationships</h5>
+                                    <ul class="list-unstyled">
+                                        <li><strong>Shop Management</strong>: Track where you purchase your supplies</li>
+                                        <li><strong>Brand Tracking</strong>: Organize supplies by brand</li>
+                                        <li><strong>Licensed Producer Support</strong>: Link brands to their licensed producers</li>
+                                        <li><strong>Rating System</strong>: Rate shops, brands, and supplies</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-bar-chart me-2"></i>Analytics & Insights</h5>
+                                    <ul class="list-unstyled">
+                                        <li><strong>Dashboard Overview</strong>: At-a-glance view of today's consumption, costs, and trends</li>
+                                        <li><strong>Daily Averages</strong>: Track average consumption and spending patterns</li>
+                                        <li><strong>Supply Duration Analytics</strong>: Understand how long different supplies last</li>
+                                        <li><strong>Usage Goals</strong>: Set and monitor daily, weekly, and monthly consumption goals</li>
+                                        <li><strong>Visual Charts</strong>: Progress bars and statistics for inventory and consumption</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-lightning me-2"></i>Smart Features</h5>
+                                    <ul class="list-unstyled">
+                                        <li><strong>Quick Access Methods</strong>: Pin frequently used consumption methods</li>
+                                        <li><strong>Smart Search</strong>: Search across all supplies, brands, shops, and methods</li>
+                                        <li><strong>Voice Commands</strong>: Siri shortcuts for hands-free logging</li>
+                                        <li><strong>Customizable Time Display</strong>: Toggle between 12-hour and 24-hour time formats</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-phone me-2"></i>User Experience</h5>
+                                    <ul class="list-unstyled">
+                                        <li><strong>Intuitive Navigation</strong>: Tab-based interface for easy access to all features</li>
+                                        <li><strong>Timeline Views</strong>: Browse puff history and supply history in chronological timelines</li>
+                                        <li><strong>Swipe Actions</strong>: Quick delete functionality for puffs</li>
+                                        <li><strong>Empty States</strong>: Helpful guidance when getting started</li>
+                                        <li><strong>Dark Mode Support</strong>: Automatic adaptation to system appearance</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="bi bi-shield-lock me-2"></i>Data Management</h5>
+                                    <ul class="list-unstyled">
+                                        <li><strong>Import/Export</strong>: Full data backup and restore capabilities</li>
+                                        <li><strong>Multiple Export Options</strong>: 
+                                            <ul>
+                                                <li>Full export with photos</li>
+                                                <li>Text-only export for smaller file sizes</li>
+                                                <li>Photos-only export</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Privacy Focused</strong>: All data stored locally on device</li>
+                                        <li><strong>Batch Operations</strong>: Clear history and manage multiple items efficiently</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="my-5">
+                    <h2 class="h3 mb-4">Benefits</h2>
+                    
+                    <div class="accordion" id="benefitsAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#medicalUsers">
+                                    For Medical Users
+                                </button>
+                            </h2>
+                            <div id="medicalUsers" class="accordion-collapse collapse show" data-bs-parent="#benefitsAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><strong>Precise Dosage Tracking</strong>: Monitor exact consumption amounts for medical compliance</li>
+                                        <li><strong>Effect Documentation</strong>: Track effectiveness and side effects with detailed notes</li>
+                                        <li><strong>Strain Analysis</strong>: Understand which strains work best for your conditions</li>
+                                        <li><strong>Reporting Ready</strong>: Export data for healthcare provider consultations</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#recreationalUsers">
+                                    For Recreational Users
+                                </button>
+                            </h2>
+                            <div id="recreationalUsers" class="accordion-collapse collapse" data-bs-parent="#benefitsAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><strong>Budget Management</strong>: Track spending and identify cost-saving opportunities</li>
+                                        <li><strong>Consumption Awareness</strong>: Understand your usage patterns and make informed decisions</li>
+                                        <li><strong>Variety Exploration</strong>: Keep track of different strains and their effects</li>
+                                        <li><strong>Social Sharing</strong>: Document memorable experiences with photos and notes</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#allUsers">
+                                    For All Users
+                                </button>
+                            </h2>
+                            <div id="allUsers" class="accordion-collapse collapse" data-bs-parent="#benefitsAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><strong>Inventory Prevention</strong>: Never run out unexpectedly with low supply alerts</li>
+                                        <li><strong>Quality Tracking</strong>: Rate and remember which products you prefer</li>
+                                        <li><strong>Historical Insights</strong>: Learn from past consumption patterns</li>
+                                        <li><strong>Goal Achievement</strong>: Set and meet personal consumption targets</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="my-5">
+                    <h2 class="h3 mb-4">Technical Details</h2>
+                    
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Requirements</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>iOS 17.0 or later</li>
+                                        <li>iPhone compatible</li>
+                                        <li>~50MB storage space</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Architecture</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>Built with SwiftUI</li>
+                                        <li>SwiftData persistence</li>
+                                        <li>Privacy-first design</li>
+                                        <li>Optimized performance</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Data Model</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li>Relational database</li>
+                                        <li>Complex relationships</li>
+                                        <li>Efficient querying</li>
+                                        <li>Data integrity</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="my-5">
+                    <h2 class="h3 mb-4">Getting Started</h2>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item"><strong>Initial Setup</strong>: On first launch, the app seeds default consumption methods</li>
+                        <li class="list-group-item"><strong>Add a Shop</strong>: Start by adding where you purchase supplies</li>
+                        <li class="list-group-item"><strong>Add Brands</strong>: Create brand entries for your preferred products</li>
+                        <li class="list-group-item"><strong>Add Supplies</strong>: Log your current inventory with details</li>
+                        <li class="list-group-item"><strong>Start Tracking</strong>: Use Quick Puff or Add Puff to begin logging consumption</li>
+                    </ol>
+                </section>
+
+                <section class="my-5">
+                    <h2 class="h3 mb-4">Privacy & Security</h2>
+                    <div class="alert alert-info">
+                        <h5 class="alert-heading">PuffTab is designed with privacy in mind:</h5>
+                        <ul class="mb-0">
+                            <li>All data is stored locally on your device</li>
+                            <li>No internet connection required for core functionality</li>
+                            <li>No user accounts or cloud sync</li>
+                            <li>Complete control over your data with export/import features</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="my-5">
+                    <h2 class="h3 mb-4">Support</h2>
+                    <p>For issues, feature requests, or questions, please visit:<br>
+                    <a href="https://github.com/anthropics/claude-code/issues" class="link-primary">https://github.com/anthropics/claude-code/issues</a></p>
+                </section>
+
+                <section class="my-5">
+                    <h2 class="h3 mb-4">Version</h2>
+                    <p>Current Version: 1.0<br>
+                    Build: 1</p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0 text-muted"><em>PuffTab - Your personal cannabis consumption companion</em></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
