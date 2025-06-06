@@ -6,6 +6,10 @@
     <title>PuffTab - Personal Cannabis Consumption Companion</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        [data-bs-theme="dark"] .itr8 {
+            filter: brightness(0) invert(1);
+        }</style>
     <script>
         // Set the theme based on user's system preference
         const getPreferredTheme = () => window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
@@ -242,7 +246,7 @@
 
     <footer class="bg-body-tertiary py-4 mt-5">
         <div class="container text-center">
-            <p class="mb-0 text-muted"><em>PuffTab - Your personal cannabis consumption companion</em> made by <a href="https://itr8.ca"><img src="https://itr8.ca/itr8.svg" alt="Iterate Logo"></a>.</p>
+            <p class="mb-0 text-muted"><em>PuffTab - Your personal cannabis consumption companion</em> made by <a href="https://itr8.ca"><img src="https://itr8.ca/itr8.svg" class="itr8" width="100" alt="Iterate Logo"></a>.</p>
         </div>
     </footer>
 
